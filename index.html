@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ad perferendis repellat repellendus ipsum
+        doloribus provident recusandae aliquid exercitationem illum dolorum saepe, iure possimus itaque nostrum
+        accusamus earum facilis! Deleniti.</span>
+    <br>
+    <textarea></textarea>
+    <br>
+    <button>Submit</button>
+
+    <div id="noti">
+        <div class="top">
+            <div style="display: flex; align-items: end;">
+                <img src="images/Windows-defender.svg">
+                <span style="margin-left: 8px;">Windows Security</span>
+            </div>
+            <div>
+                <img src="images/three-dots.svg">
+                <img src="images/x.svg" style="margin-left: 20px;" id="closeIcon">
+            </div>
+        </div>
+        <div class="main">
+            <span style="font-size: 12px;">Windows Security</span>
+            <br>
+            <h3>Turn on virus protection</h3>
+            <span style="color: rgba(242, 242, 242, 0.799)">Virus protection is turned off. Tap or click to turn on
+                Microsoft Defender Antivirus.</span>
+            <button class="dismiss-button" id="dismissBTN">Dismiss</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
