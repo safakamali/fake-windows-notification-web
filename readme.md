@@ -1,7 +1,7 @@
 ![Alt text](Screenshot.jpg)
 # Windows 11 defender disable notification in html/css/js
 Yes it on web. it on a simple html, css, js codes without Node.js.
-It can make fake Windows 11 notification that say windows defender is turn off.
+It can make fake Windows 11 notification that say windows defender is turn off!
 
 You can open script.js file and see function (they are not difficult).
 `fireNoti()` is for show notification
